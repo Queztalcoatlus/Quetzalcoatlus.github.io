@@ -1,0 +1,25 @@
+I"�<h1 id="project-introduction">Project Introduction</h1>
+
+<p><a href="https://masterdatascience.ubc.ca/why-data-science/data-stories/preserving-cultural-heritage-help-ojibwe-verb-conjugator">UBC MDS-CL Program Post</a></p>
+
+<h1 id="example-conjugation">Example Conjugation</h1>
+<p>An example input to the conjugator is “INDEP+POS+PAST+onjise+4SG”. The tags carry the following grammatical information:</p>
+<ul>
+  <li>+3SG: 3rd person plural</li>
+  <li>+3PL: 3rd person plural</li>
+  <li>+4SG: 4th person singular</li>
+  <li>+3PL: 4th person plural</li>
+</ul>
+
+<p>The conjugated verb form returned by the API is “gii-onijiseni”. The following graph shows the underlying finite state transducer.</p>
+
+<p><img src="/portfolio/img/posts/ojibwe-verb-conjugator/vii-fst.jpeg" alt="vii-fst" /></p>
+
+<h1 id="redesigned-interface">Redesigned Interface</h1>
+<p>The redesigned interface calls our API with conjugation parameters and verb stem and populate the results with conjugated forms.</p>
+
+<p><img src="/portfolio/img/posts/ojibwe-verb-conjugator/interface.png" alt="Interface" /></p>
+
+<h1 id="api-call-flowchart">API Call Flowchart</h1>
+<p><img src="/portfolio/img/posts/ojibwe-verb-conjugator/flowchart.jpg" alt="Flowchart" /></p>
+:ET
