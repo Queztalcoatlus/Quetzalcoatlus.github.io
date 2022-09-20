@@ -2,7 +2,7 @@ title:              Portfolio
 email:              dongweihorizon@gmail.com
 description:        A portfolio site that links to personal projects
 author:             Wei Dong
-baseurl:            ""
+baseurl:            "/portfolio"
 url:                "https://Queztalcoatlus.github.io/portfolio"
 
 # Social Profiles
